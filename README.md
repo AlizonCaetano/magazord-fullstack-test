@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Criar um backend que suporte um sistema de gerenciamento de pessoas e seus contatos, cumprindo requisitos funcionais, não funcionais e de negócio pré definidos para o teste técnico.
+Criar um sistema de ponta a ponta que suporte um sistema de gerenciamento de pessoas e seus contatos, cumprindo requisitos funcionais, não funcionais e de negócio pré definidos para o teste técnico.
 
 ## Requisitos Funcionais
 
