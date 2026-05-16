@@ -13,8 +13,21 @@ module.exports = {
         unique: true,
       },
       password: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(50),
         allowNull: false,
+      },
+      role: {
+        type: Sequelize.ENUM("admin", "viewer"),
+        allowNull: false,
+      },
+      person_id: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "persons",
+          key: "id",
+        },
+        onDelete: "CASCADE",
       },
       createdAt: Sequelize.DATE,
       updatedAt: Sequelize.DATE,

@@ -11,12 +11,12 @@ export default [
         __dirname: "readonly",
         __filename: "readonly",
         global: "readonly",
-        process: "readonly",
-      },
+        process: "readonly"
+      }
     },
     rules: {
       "no-unused-vars": "warn",
-      "no-console": "off",
-    },
-  },
+      "no-console": "off"
+    }
+  }
 ];
